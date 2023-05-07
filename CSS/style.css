@@ -1,0 +1,171 @@
+
+/* start header */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    width: 80px;
+    display: block;
+    padding: 25px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.a_style {
+    text-decoration: none;
+}
+
+.nav_hover:hover {
+    color: #FF7C7C;
+}
+
+/* end header */
+
+.introduce-myself {
+    margin-top: 15%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    background-color: white;
+}
+
+.h1 {
+    margin-top: 10px;
+}
+
+
+ .personal_image  {
+     width: 250px;
+     height:250px ;
+     border-radius: 100%;
+     box-shadow: -5px 15px #EDF7FA;
+} 
+
+.right {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #FF7C7C;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 40px;
+}
+
+button:hover {
+    background-color: white;
+    color:  rgb(252, 67, 98);
+}
+
+body {
+    padding: 70px;
+    margin: 50px;
+}
+section {
+    margin-left: -25px;
+    margin-right: -20px;
+}
+.details {
+    padding: 27px;
+    margin-top: 100px;
+    background-color: #EDF7FA;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30% 0 16%;
+}
+
+.par {
+    color: #00A8CC;
+}
+
+.side{
+    display: flex;
+    margin-left: 16%;
+}
+
+.left_side {
+    margin-right: 20px;
+    padding: 15px;
+    height: 100%;
+    width: 400px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.h1_color {
+    color: #21243D;
+}
+
+p {
+    margin: 20px 10px;
+}
+
+.contents {
+    display: flex;
+}
+
+.works_section {
+    margin-right: 20px;
+}
+
+span {
+    border-radius: 16px;
+    background-color: #21243D;
+    padding: 8px;
+    color: white;
+    margin-right: 15px;
+}
+
+.pp {
+    color: #8695A4;
+}
+
+hr {
+    margin: 20px;
+}
+
+/* start footer */
+
+footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+i {
+    margin: 20px;
+    font-size: 35px;
+    color: #21243D;
+}
+
+.footer_style {
+    margin-top: 5px;
+    color: #21243D;
+}
+
+/* end footer */
+
+
